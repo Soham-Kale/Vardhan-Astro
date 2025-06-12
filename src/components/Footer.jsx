@@ -1,4 +1,3 @@
-// src/components/Footer.js
 import React from 'react';
 import { FaStar, FaFacebookF, FaInstagram, FaYoutube, FaTwitter, FaPhone, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa';
 

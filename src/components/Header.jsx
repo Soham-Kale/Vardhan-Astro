@@ -1,4 +1,3 @@
-// src/components/Header.js
 import React, { useState } from 'react';
 import { FaStar, FaMoon, FaSun, FaBars, FaTimes } from 'react-icons/fa';
 import LanguageSwitcher from './LanguageSwitcher';

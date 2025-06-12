@@ -1,4 +1,3 @@
-// src/components/Gallery.js
 import React, { useState } from 'react';
 import { FaStar, FaChevronLeft, FaChevronRight, FaTimes } from 'react-icons/fa';
 
