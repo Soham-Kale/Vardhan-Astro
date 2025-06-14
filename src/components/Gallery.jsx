@@ -1,11 +1,13 @@
 import React, { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import { FaStar, FaChevronLeft, FaChevronRight, FaTimes } from 'react-icons/fa';
 
 const Gallery = () => {
   const galleryItems = Array(9).fill(null); // Placeholder for 9 images
   
   const [selectedImage, setSelectedImage] = useState(null);
-
+  const { t } = useTranslation();
+  
   const openLightbox = (index) => {
     setSelectedImage(index);
   };
@@ -29,11 +31,12 @@ const Gallery = () => {
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 dark:text-white mb-4">
-            Our Work Gallery
+              {t("gallery.title")}
+
           </h2>
           <div className="w-24 h-1 bg-indigo-600 mx-auto rounded-full"></div>
           <p className="text-xl text-gray-600 dark:text-gray-300 mt-6 max-w-2xl mx-auto">
-            Glimpses of our astrological consultations, workshops, and client interactions
+            {t("gallery.description")}
           </p>
         </div>
 

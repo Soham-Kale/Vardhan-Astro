@@ -51,6 +51,41 @@ const resources = {
         },
       },
 
+      gallery: {
+        title: "Our Work Gallery",
+        description:
+          "Glimpses of our astrological consultations, workshops, and client interactions",
+      },
+      testimonials: {
+        title: "Client Testimonials",
+        description: "What our clients say about our astrological services",
+      },
+
+      testimonial1: {
+        name: "Rajesh Kumar",
+        role: "Business Owner",
+        content:
+          "The career guidance I received completely transformed my professional life. I was able to make the right decisions at the right time, leading to unprecedented success in my business.",
+      },
+      testimonial2: {
+        name: "Priya Sharma",
+        role: "Software Engineer",
+        content:
+          "The relationship compatibility analysis helped me understand my partner better. We've been able to work through our differences and strengthen our bond significantly.",
+      },
+      testimonial3: {
+        name: "Vikram Singh",
+        role: "College Student",
+        content:
+          "The education guidance helped me choose the right field of study. I was confused between multiple options, but the astrological insights provided clarity and direction.",
+      },
+      testimonial4: {
+        name: "Harshita Deshmukh",
+        role: "Homemaker",
+        content:
+          "The Vastu consultation for our new home made such a difference! We've experienced more harmony and positivity in our family life since implementing the suggestions."      
+      },
+
       nav: {
         home: "Home",
         about: "About",
@@ -122,6 +157,40 @@ const resources = {
             "आगामी वर्ष के लिए मार्गदर्शन हेतु संपूर्ण भविष्यवाणियाँ।",
         },
       },
+
+      gallery: {
+        title: "हमारा कार्य गैलरी",
+        description:
+          "हमारी ज्योतिषीय परामर्श, कार्यशालाओं और क्लाइंट इंटरैक्शन की कुछ झलकियाँ",
+      },
+      testimonials: {
+        title: "ग्राहकों की राय",
+        description:
+          "हमारी ज्योतिष सेवाओं के बारे में हमारे ग्राहक क्या कहते हैं",
+      },
+
+      testimonial1: {
+        name: "राजेश कुमार",
+        role: "व्यवसायी",
+        content:
+          "मुझे जो करियर मार्गदर्शन मिला उसने मेरी पेशेवर जिंदगी पूरी तरह बदल दी। सही समय पर सही निर्णय लेने से व्यापार में जबरदस्त सफलता मिली।",
+      },
+      testimonial2: {
+        name: "प्रिया शर्मा",
+        role: "सॉफ्टवेयर इंजीनियर",
+        content:  "रिश्तों की संगतता जांच ने मुझे अपने साथी को बेहतर समझने में मदद की। हमने अपने मतभेदों को सुलझाया और हमारा बंधन मजबूत हुआ।",
+      },
+      testimonial3: {
+        name: "Vikram Singh",
+        role: "College Student",
+        content:  "शैक्षणिक मार्गदर्शन से मुझे सही अध्ययन क्षेत्र चुनने में मदद मिली। मैं कई विकल्पों को लेकर उलझा था, लेकिन ज्योतिषीय सलाह से स्पष्टता मिली।",
+      },
+      testimonial4: {
+        name: "Harshita Deshmukh",
+        role: "Homemaker",
+        content:  "हमारे नए घर के लिए वास्तु परामर्श ने बहुत फर्क डाला! हमारे पारिवारिक जीवन में अधिक सामंजस्य और सकारात्मकता आई।"
+      },
+
       nav: {
         home: "होम",
         about: "हमारे बारे में",
@@ -192,6 +261,42 @@ const resources = {
             "आगामी वर्षाचे यशस्वीपणे मार्गदर्शन करण्यासाठी सविस्तर भविष्यवाणी.",
         },
       },
+
+      gallery: {
+        title: "आमचे कार्य गॅलरी",
+        description:
+          "आमच्या ज्योतिष सल्लागार सेवा, कार्यशाळा आणि ग्राहकांशी संवाद यांचे काही क्षणचित्रे",
+      },
+      testimonials: {
+        title: "ग्राहकांची मते",
+        description: "आमच्या ज्योतिष सेवा बाबत ग्राहक काय म्हणतात ते वाचा",
+      },
+
+      testimonial1: {
+        name: "राजेश कुमार",
+        role: "व्यवसायिक",
+        content:
+          "मिळालेल्या करिअर मार्गदर्शनाने माझ्या व्यावसायिक जीवनात आमूलाग्र बदल घडवून आणला. योग्य वेळी योग्य निर्णय घेता आले आणि व्यवसायात यश मिळाले.",
+      },
+      testimonial2: {
+        name: "प्रिया शर्मा",
+        role: "सॉफ्टवेअर इंजिनीअर",
+        content:
+          "संबंध सुसंगतता विश्लेषणामुळे मला माझ्या जोडीदाराला चांगल्या प्रकारे समजून घेता आले. त्यामुळे आमचे नाते अधिक मजबूत झाले आहे.",
+      },
+      testimonial3: {
+        name: "Vikram Singh",
+        role: "College Student",
+        content:
+          "शैक्षणिक मार्गदर्शनामुळे मला योग्य अभ्यासक्रम निवडता आला. अनेक पर्यायांमध्ये गोंधळलेलो होतो पण ज्योतिषशास्त्रीय मार्गदर्शनामुळे स्पष्टता मिळाली.",      
+        },
+      testimonial4: {
+        name: "Harshita Deshmukh",
+        role: "Homemaker",
+        content:
+          "नवीन घरासाठी केलेल्या वास्तु सल्ल्यामुळे आमच्या घरात सकारात्मकता आणि सौहार्द वाढले आहे."
+      },
+
       nav: {
         home: "मुख्यपृष्ठ",
         about: "आमच्याविषयी",

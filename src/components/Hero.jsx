@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaStar } from 'react-icons/fa';
 import { useTranslation } from 'react-i18next';
+import astroImg from '../assets/astro1.png';
 
 const Hero = ({ setShowModal }) => {
   const { t } = useTranslation();
@@ -34,6 +35,7 @@ const Hero = ({ setShowModal }) => {
           <div className="md:w-1/2 flex justify-center">
             <div className="relative">
               <div className="bg-indigo-100 dark:bg-indigo-900 rounded-full w-72 h-72 md:w-96 md:h-96 flex items-center justify-center overflow-hidden border-8 border-white dark:border-gray-800 shadow-xl">
+                <img src={astroImg} alt="astro img" />
                 <div className="bg-gray-200 border-2 border-dashed rounded-xl w-64 h-64 md:w-80 md:h-80" />
               </div>
               <div className="absolute -top-4 -right-4 bg-yellow-400 rounded-full w-16 h-16 flex items-center justify-center shadow-lg">

@@ -10,9 +10,6 @@ const LanguageSwitcher = () => {
     { code: 'en', name: 'English', flag: '🇺🇸' },
     { code: 'hi', name: 'हिन्दी', flag: '🇮🇳' },
     { code: 'mr', name: 'मराठी', flag: '🇮🇳' },
-    { code: 'kn', name: 'ಕನ್ನಡ', flag: '🇮🇳' },
-    { code: 'ta', name: 'தமிழ்', flag: '🇮🇳' },
-    { code: 'te', name: 'తెలుగు', flag: '🇮🇳' }
   ];
 
   const changeLanguage = (lng) => {

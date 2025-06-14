@@ -1,7 +1,7 @@
-// src/components/About.js
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { FaStar, FaUserAstronaut, FaBookOpen, FaGlobeAsia } from 'react-icons/fa';
+import astrImg from "../assets/astro2.jpeg";
 
 const About = () => {
   const { t } = useTranslation();
@@ -18,6 +18,7 @@ const About = () => {
 
         <div className="flex flex-col md:flex-row items-center">
           <div className="md:w-2/5 mb-10 md:mb-0 flex justify-center">
+          <img src={astrImg} alt="astrologer img" />
             <div className="bg-gray-200 border-2 border-dashed rounded-xl w-64 h-64 md:w-80 md:h-80" />
           </div>
           <div className="md:w-3/5 md:pl-16">
