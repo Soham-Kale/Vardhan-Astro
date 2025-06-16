@@ -6,7 +6,7 @@ const resources = {
     translation: {
       brandName: "Cosmic Insights",
       aboutAstrologer: "About Our Astrologer",
-      astrologerTitle: "Master Astrologer with 11+ Years of Experience",
+      astrologerTitle: "Master Astrologer with Years of Experience",
       astrologerPara1:
         "With over one decades of dedicated practice in Vedic astrology, our master astrologer has guided thousands of individuals through life's complex challenges. His profound knowledge of celestial movements and their impact on human lives has earned him recognition in astrological circles worldwide.",
       astrologerPara2:
@@ -51,6 +51,43 @@ const resources = {
         },
       },
 
+      footer: {
+        brand: "Cosmic Insights",
+        tagline:
+          "Providing expert astrological guidance for over years. Helping clients navigate life's challenges with celestial wisdom.",
+        quickLinks: "Quick Links",
+        links: [
+          "Home",
+          "About",
+          "Services",
+          "Gallery",
+          "Testimonials",
+          "Location",
+          "Contact",
+        ],
+        services: "Our Services",
+        serviceItems: [
+          "Birth Chart Analysis",
+          "Relationship Compatibility",
+          "Career Guidance",
+          "Vastu Shastra",
+          "Education Guidance",
+          "Yearly Forecast",
+        ],
+        contact: "Contact Us",
+        address: "Bhose(k) 413315, Tal. Pandharpur, Dist. Solapur",
+        phone: "+91 9604503266",
+        email: "contact@cosmicinsights.com",
+        copyright: "Cosmic Insights Astrology Center. All rights reserved.",
+        designedBy:
+          "Designed and developed with ❤️ for your celestial guidance",
+      },
+
+      visitSection: {
+        heading: "Visit Our Shop",
+        subheading: "Find us at our conveniently located astrology center",
+      },
+
       gallery: {
         title: "Our Work Gallery",
         description:
@@ -79,11 +116,124 @@ const resources = {
         content:
           "The education guidance helped me choose the right field of study. I was confused between multiple options, but the astrological insights provided clarity and direction.",
       },
+      mapSection: {
+        label: "Interactive Map:",
+        description: "Click to explore the area around our astrology center",
+      },
       testimonial4: {
         name: "Harshita Deshmukh",
         role: "Homemaker",
         content:
-          "The Vastu consultation for our new home made such a difference! We've experienced more harmony and positivity in our family life since implementing the suggestions."      
+          "The Vastu consultation for our new home made such a difference! We've experienced more harmony and positivity in our family life since implementing the suggestions.",
+      },
+      contactCard: {
+        title: "Cosmic Insights Astrology Center",
+        addressTitle: "Address",
+        addressLines: ["Bhose(k) 413315", "Tal. Pandharpur", "Dist. Solapur"],
+        hoursTitle: "Opening Hours",
+        hoursWeekday: "Monday - Saturday: 9:30 AM - 7:00 PM",
+        hoursSunday: "Sunday: 10:00 AM - 2:00 PM",
+        phoneTitle: "Phone",
+        emailTitle: "Email",
+        notesTitle: "Important Notes:",
+        notes: [
+          "Appointments are recommended to ensure availability",
+          "Free parking available behind the building",
+          "Wheelchair accessible entrance",
+        ],
+      },
+
+      resources: {
+        title: "Astrology Resources",
+        subtitle:
+          "Explore articles, guides, and tools to deepen your astrological knowledge",
+        article1: {
+          title: "2025 Astrology Calendar",
+          excerpt:
+            "Stay ahead with key planetary movements, retrogrades, and festivals in 2025.",
+          date: "June 10, 2025",
+        },
+        article2: {
+          title: "Beginner’s Guide to Vedic Astrology",
+          excerpt:
+            "Learn the basics of houses, planets, and signs in the Vedic tradition.",
+          date: "May 28, 2025",
+        },
+        article3: {
+          title: "Career Tips for Modern Astrologers",
+          excerpt:
+            "How to build your personal brand and grow your astrology practice online.",
+          date: "April 18, 2025",
+        },
+      },
+
+      contactForm: {
+        title: "Send us a message",
+        successTitle: "Message Sent Successfully!",
+        successMsg: "Thank you for contacting us. We'll get back to you soon.",
+        fields: {
+          name: "Full Name",
+          email: "Email Address",
+          phone: "Phone Number",
+          service: "Service Interested In",
+          message: "Your Message",
+          select: "Select a service",
+        },
+        services: {
+          birthChart: "Birth Chart Analysis",
+          relationship: "Relationship Compatibility",
+          career: "Career Guidance",
+          vastu: "Vastu Shastra",
+          education: "Education Guidance",
+          forecast: "Yearly Forecast",
+        },
+        message: "Your Message",
+        button: "Send Message",
+        sending: "Sending...",
+      },
+      consultation: {
+        title: "Consultation Information",
+        intro:
+          "We offer both in-person and online consultations to accommodate clients from all over the world.",
+        inPerson: {
+          title: "In-Person Consultation",
+          duration: "Duration: 60-90 minutes",
+          bringDetails: "Please bring your birth details (date, time, place)",
+          recording: "Recording available upon request",
+        },
+        online: {
+          title: "Online Consultation",
+          platform: "Conducted via Zoom or Google Meet",
+          schedule: "Schedule according to your timezone",
+          recording: "Recording provided after the session",
+        },
+        followUs: "Follow Us",
+      },
+
+      contactSection: {
+        title: "Get In Touch",
+        subtitle:
+          "Have questions or ready to book a consultation? Reach out to us!",
+      },
+
+      consultation2: {
+        title: "Consultation Information",
+        description:
+          "We offer both in-person and online consultations to accommodate clients from all over the world.",
+        inPerson: {
+          title: "In-Person Consultation",
+          point1: "Duration: 60-90 minutes",
+          point2: "Please bring your birth details (date, time, place)",
+          point3: "Recording available upon request",
+        },
+        online: {
+          title: "Online Consultation",
+          point1: "Conducted via Zoom or Google Meet",
+          point2: "Schedule according to your timezone",
+          point3: "Recording provided after the session",
+        },
+        followUs: "Follow Us",
+        platforms: ["Facebook", "Instagram", "YouTube", "Twitter"],
       },
 
       nav: {
@@ -112,9 +262,9 @@ const resources = {
   },
   hi: {
     translation: {
-      brandName: "ब्रह्मांडीय अंतर्दृष्टि",
+      brandName: "वैश्विक अंतर्दृष्टी",
       aboutAstrologer: "हमारे ज्योतिषी के बारे में",
-      astrologerTitle: "11+ वर्षों के अनुभव वाले ज्योतिषाचार्य",
+      astrologerTitle: "वर्षों के अनुभव वाले ज्योतिषाचार्य",
       astrologerPara1:
         "वैदिक ज्योतिष में एक दशक से अधिक के समर्पित अभ्यास के साथ, हमारे ज्योतिषाचार्य ने जीवन की जटिल चुनौतियों में हजारों लोगों का मार्गदर्शन किया है। ग्रहों की चाल और उनके प्रभाव के बारे में उनके गहरे ज्ञान ने उन्हें विश्व स्तर पर मान्यता दिलाई है।",
       astrologerPara2:
@@ -158,6 +308,137 @@ const resources = {
         },
       },
 
+      resources: {
+        title: "ज्योतिष संसाधन",
+        subtitle:
+          "ज्योतिष ज्ञान बढ़ाने के लिए लेख, मार्गदर्शिकाएँ और उपकरण देखें",
+        article1: {
+          title: "2025 ज्योतिष कैलेंडर",
+          excerpt: "2025 के ग्रह गोचर, वक्री और त्यौहारों की जानकारी पाएं।",
+          date: "10 जून 2025",
+        },
+        article2: {
+          title: "वैदिक ज्योतिष की शुरुआत",
+          excerpt: "भाव, ग्रह और राशियों की मूल बातें जानें।",
+          date: "28 मई 2025",
+        },
+        article3: {
+          title: "आधुनिक ज्योतिषियों के लिए करियर टिप्स",
+          excerpt: "अपना ब्रांड बनाएं और ऑनलाइन ज्योतिष सेवा शुरू करें।",
+          date: "18 अप्रैल 2025",
+        },
+      },
+
+      footer: {
+        brand: "ब्रह्मांडीय अंतर्दृष्टि",
+        tagline:
+          "वर्षों का विशेषज्ञ ज्योतिषीय मार्गदर्शन। जीवन की चुनौतियों का समाधान खगोलीय ज्ञान से।",
+        quickLinks: "त्वरित लिंक",
+        links: [
+          "होम",
+          "हमारे बारे में",
+          "सेवाएं",
+          "गैलरी",
+          "प्रशंसापत्र",
+          "स्थान",
+          "संपर्क",
+        ],
+        services: "हमारी सेवाएं",
+        serviceItems: [
+          "जन्म कुंडली विश्लेषण",
+          "रिश्तों की संगति",
+          "करियर मार्गदर्शन",
+          "वास्तु शास्त्र",
+          "शैक्षणिक मार्गदर्शन",
+          "वार्षिक पूर्वानुमान",
+        ],
+        contact: "संपर्क करें",
+        address: "भोसे(क), 413315, ता. पंढरपुर, जि. सोलापुर",
+        phone: "+91 9604503266",
+        email: "contact@cosmicinsights.com",
+        copyright: "ब्रह्मांडीय अंतर्दृष्टि ज्योतिष केंद्र। सर्वाधिकार सुरक्षित।",
+        designedBy:
+          "आपके खगोलीय मार्गदर्शन के लिए ❤️ के साथ डिज़ाइन और विकसित किया गया",
+      },
+
+      contactSection: {
+        title: "संपर्क करें",
+        subtitle:
+          "कोई सवाल है या परामर्श बुक करना चाहते हैं? हमसे संपर्क करें!",
+      },
+
+      visitSection: {
+        heading: "हमारी दुकान पर आएं",
+        subheading:
+          "हमारे सुविधाजनक स्थान पर स्थित ज्योतिष केंद्र में हमसे मिलें",
+      },
+      mapSection: {
+        label: "इंटरएक्टिव मानचित्र:",
+        description:
+          "हमारे ज्योतिष केंद्र के आस-पास का क्षेत्र देखने के लिए क्लिक करें",
+      },
+
+      contactForm: {
+        title: "हमें संदेश भेजें",
+        successTitle: "संदेश सफलतापूर्वक भेजा गया!",
+        successMsg:
+          "संपर्क करने के लिए धन्यवाद। हम जल्द ही आपसे संपर्क करेंगे।",
+        fields: {
+          name: "पूरा नाम",
+          email: "ईमेल पता",
+          phone: "फ़ोन नंबर",
+          service: "आपको किस सेवा में रुचि है",
+          message: "आपका संदेश",
+          select: "सेवा चुनें",
+        },
+        services: {
+          birthChart: "जन्म कुंडली विश्लेषण",
+          relationship: "संबंध संगतता",
+          career: "करियर मार्गदर्शन",
+          vastu: "वास्तु शास्त्र",
+          education: "शिक्षा मार्गदर्शन",
+          forecast: "वार्षिक भविष्यवाणी",
+        },
+        message: "आपका संदेश",
+        button: "संदेश भेजें",
+        sending: "भेजा जा रहा है...",
+      },
+      consultation: {
+        title: "परामर्श जानकारी",
+        intro:
+          "हम दुनिया भर के ग्राहकों के लिए व्यक्तिगत और ऑनलाइन दोनों परामर्श प्रदान करते हैं।",
+        inPerson: {
+          title: "व्यक्तिगत परामर्श",
+          duration: "अवधि: 60-90 मिनट",
+          bringDetails: "कृपया जन्म विवरण (तारीख, समय, स्थान) लाएँ",
+          recording: "रिकॉर्डिंग अनुरोध पर उपलब्ध",
+        },
+        online: {
+          title: "ऑनलाइन परामर्श",
+          platform: "Zoom या Google Meet के माध्यम से किया जाता है",
+          schedule: "अपने समय क्षेत्र के अनुसार शेड्यूल करें",
+          recording: "सेशन के बाद रिकॉर्डिंग दी जाएगी",
+        },
+        followUs: "हमें फॉलो करें",
+      },
+
+      contactCard: {
+        title: "ब्रह्मांडीय अंतर्दृष्टि ज्योतिष केंद्र",
+        addressTitle: "पता",
+        addressLines: ["भोसे(के) ४१३३१५", "ता. पंढरपूर", "जि. सोलापूर"],
+        hoursTitle: "खुलने का समय",
+        hoursWeekday: "सोमवार - शनिवार: सुबह 9:30 - शाम 7:00",
+        hoursSunday: "रविवार: सुबह 10:00 - दोपहर 2:00",
+        phoneTitle: "फ़ोन",
+        emailTitle: "ईमेल",
+        notesTitle: "महत्वपूर्ण नोट्स:",
+        notes: [
+          "उपलब्धता सुनिश्चित करने के लिए अपॉइंटमेंट की सिफारिश की जाती है",
+          "इमारत के पीछे निःशुल्क पार्किंग उपलब्ध है",
+          "व्हीलचेयर के लिए अनुकूल प्रवेश",
+        ],
+      },
+
       gallery: {
         title: "हमारा कार्य गैलरी",
         description:
@@ -178,17 +459,40 @@ const resources = {
       testimonial2: {
         name: "प्रिया शर्मा",
         role: "सॉफ्टवेयर इंजीनियर",
-        content:  "रिश्तों की संगतता जांच ने मुझे अपने साथी को बेहतर समझने में मदद की। हमने अपने मतभेदों को सुलझाया और हमारा बंधन मजबूत हुआ।",
+        content:
+          "रिश्तों की संगतता जांच ने मुझे अपने साथी को बेहतर समझने में मदद की। हमने अपने मतभेदों को सुलझाया और हमारा बंधन मजबूत हुआ।",
       },
       testimonial3: {
         name: "Vikram Singh",
         role: "College Student",
-        content:  "शैक्षणिक मार्गदर्शन से मुझे सही अध्ययन क्षेत्र चुनने में मदद मिली। मैं कई विकल्पों को लेकर उलझा था, लेकिन ज्योतिषीय सलाह से स्पष्टता मिली।",
+        content:
+          "शैक्षणिक मार्गदर्शन से मुझे सही अध्ययन क्षेत्र चुनने में मदद मिली। मैं कई विकल्पों को लेकर उलझा था, लेकिन ज्योतिषीय सलाह से स्पष्टता मिली।",
       },
       testimonial4: {
         name: "Harshita Deshmukh",
         role: "Homemaker",
-        content:  "हमारे नए घर के लिए वास्तु परामर्श ने बहुत फर्क डाला! हमारे पारिवारिक जीवन में अधिक सामंजस्य और सकारात्मकता आई।"
+        content:
+          "हमारे नए घर के लिए वास्तु परामर्श ने बहुत फर्क डाला! हमारे पारिवारिक जीवन में अधिक सामंजस्य और सकारात्मकता आई।",
+      },
+
+      consultation2: {
+        title: "परामर्श जानकारी",
+        description:
+          "हम दुनिया भर के ग्राहकों के लिए व्यक्तिगत और ऑनलाइन परामर्श प्रदान करते हैं।",
+        inPerson: {
+          title: "व्यक्तिगत परामर्श",
+          point1: "समय: 60-90 मिनट",
+          point2: "कृपया अपनी जन्म की जानकारी (तारीख, समय, स्थान) साथ लाएं",
+          point3: "रिकॉर्डिंग अनुरोध पर उपलब्ध है",
+        },
+        online: {
+          title: "ऑनलाइन परामर्श",
+          point1: "Zoom या Google Meet के माध्यम से आयोजित किया जाता है",
+          point2: "अपने टाइमज़ोन के अनुसार शेड्यूल करें",
+          point3: "सत्र के बाद रिकॉर्डिंग प्रदान की जाएगी",
+        },
+        followUs: "हमें फॉलो करें",
+        platforms: ["Facebook", "Instagram", "YouTube", "Twitter"],
       },
 
       nav: {
@@ -219,7 +523,7 @@ const resources = {
     translation: {
       brandName: "वैश्विक अंतर्दृष्टी",
       aboutAstrologer: "आमच्या ज्योतिषाबद्दल",
-      astrologerTitle: "११+ वर्षांचा अनुभव असलेले ज्योतीषाचार्य",
+      astrologerTitle: "अनुभव असलेले ज्योतीषाचार्य",
       astrologerPara1:
         "वैदिक ज्योतिषशास्त्राच्या एक दशकाहून अधिक काळातील समर्पित सरावामुळे, आमचे ज्योतीषाचार्य जीवनातील गुंतागुंतीच्या समस्यांमध्ये हजारो लोकांचे मार्गदर्शन करत आले आहेत. ग्रहांची हालचाल आणि मानवी जीवनावरील त्यांचा प्रभाव या विषयातील त्यांच्या सखोल ज्ञानामुळे त्यांना जगभर मान्यता मिळाली आहे.",
       astrologerPara2:
@@ -262,6 +566,150 @@ const resources = {
         },
       },
 
+      footer: {
+        brand: "वैश्विक अंतर्दृष्टी",
+        tagline:
+          "ज्योतिष मार्गदर्शनाचा अनुभव. तुमच्या जीवनातील अडचणींवर आकाशीय उपाय.",
+        quickLinks: "त्वरित लिंक्स",
+        links: [
+          "मुख्यपृष्ठ",
+          "विषयी",
+          "सेवा",
+          "गॅलरी",
+          "प्रशंसापत्रे",
+          "ठिकाण",
+          "संपर्क",
+        ],
+        services: "आमच्या सेवा",
+        serviceItems: [
+          "जन्मकुंडली विश्लेषण",
+          "संबंध सुसंगतता",
+          "करिअर मार्गदर्शन",
+          "वास्तुशास्त्र",
+          "शैक्षणिक मार्गदर्शन",
+          "वार्षिक भविष्य",
+        ],
+        contact: "संपर्क करा",
+        address: "भोसे(क), ४१३३१५, ता. पंढरपूर, जि. सोलापूर",
+        phone: "+९१ ९६०४५०३२६६",
+        email: "contact@cosmicinsights.com",
+        copyright: "वैश्विक अंतर्दृष्टी ज्योतिष केंद्र. सर्व हक्क राखीव.",
+        designedBy:
+          "तुमच्या आकाशीय मार्गदर्शनासाठी प्रेमाने डिझाइन व डेव्हलप केले",
+      },
+
+      visitSection: {
+        heading: "आमच्या दुकानाला भेट द्या",
+        subheading:
+          "आमच्या सोयीच्या ठिकाणी असलेल्या ज्योतिष केंद्रात आम्हाला भेटा",
+      },
+      mapSection: {
+        label: "इंटरअक्टिव नकाशा:",
+        description:
+          "आमच्या ज्योतिष केंद्राभोवतीचे क्षेत्र पाहण्यासाठी क्लिक करा",
+      },
+      contactCard: {
+        title: "वैश्विक अंतर्दृष्टी ज्योतिष केंद्र",
+        addressTitle: "पत्ता",
+        addressLines: ["भोसे(के) ४१३३१५", "ता. पंढरपूर", "जि. सोलापूर"],
+        hoursTitle: "कामाचे तास",
+        hoursWeekday: "सोमवार - शनिवार: सकाळी 9:30 - संध्याकाळी 7:00",
+        hoursSunday: "रविवार: सकाळी 10:00 - दुपारी 2:00",
+        phoneTitle: "फोन",
+        emailTitle: "ईमेल",
+        notesTitle: "महत्वाच्या सूचना:",
+        notes: [
+          "उपलब्धता सुनिश्चित करण्यासाठी अपॉइंटमेंट घेणे शिफारसीय आहे",
+          "इमारतीच्या मागे मोफत पार्किंग उपलब्ध",
+          "व्हीलचेयरसाठी प्रवेशयोग्य",
+        ],
+      },
+
+      resources: {
+        title: "ज्योतिष संसाधने",
+        subtitle:
+          "तुमचे ज्योतिष ज्ञान वाढवण्यासाठी लेख, मार्गदर्शक आणि साधने एक्सप्लोर करा",
+        article1: {
+          title: "२०२५ ज्योतिष दिनदर्शिका",
+          excerpt:
+            "२०२५ मधील ग्रहांची स्थिती, वक्री काल व सणांची माहिती मिळवा.",
+          date: "१० जून २०२५",
+        },
+        article2: {
+          title: "वैदिक ज्योतिषाची मूलतत्त्वे",
+          excerpt: "भाव, ग्रह व राशी यांची मूलभूत माहिती जाणून घ्या.",
+          date: "२८ मे २०२५",
+        },
+        article3: {
+          title: "आधुनिक ज्योतिषांसाठी करिअर टिप्स",
+          excerpt: "तुमचा ब्रँड तयार करा आणि ऑनलाईन ज्योतिष सेवा सुरू करा.",
+          date: "१८ एप्रिल २०२५",
+        },
+      },
+
+      consultation2: {
+        title: "सल्लामसलत माहिती",
+        description:
+          "आम्ही देश-विदेशातील ग्राहकांसाठी प्रत्यक्ष व ऑनलाइन सल्लामसलती देतो.",
+        inPerson: {
+          title: "प्रत्यक्ष सल्लामसलत",
+          point1: "कालावधी: ६०-९० मिनिटे",
+          point2: "कृपया आपल्या जन्मतारीख, वेळ आणि ठिकाण घेऊन या",
+          point3: "रिकॉर्डिंगच्या विनंतीवर उपलब्ध",
+        },
+        online: {
+          title: "ऑनलाइन सल्लामसलत",
+          point1: "Zoom किंवा Google Meet द्वारे घेतले जाते",
+          point2: "आपल्या वेळेनुसार वेळ निश्चित करता येतो",
+          point3: "सेशननंतर रेकॉर्डिंग दिले जाते",
+        },
+        followUs: "आमचं अनुसरण करा",
+        platforms: ["Facebook", "Instagram", "YouTube", "Twitter"],
+      },
+
+      contactForm: {
+        title: "आम्हाला संदेश पाठवा",
+        successTitle: "संदेश यशस्वीरीत्या पाठवला!",
+        successMsg: "संपर्क केल्याबद्दल धन्यवाद. आम्ही लवकरच उत्तर देऊ.",
+        fields: {
+          name: "पूर्ण नाव",
+          email: "ईमेल पत्ता",
+          phone: "फोन नंबर",
+          service: "आपल्याला कोणत्या सेवेची आवड आहे",
+          message: "तुमचा संदेश",
+          select: "सेवा निवडा",
+        },
+        services: {
+          birthChart: "जन्मपत्रिका विश्लेषण",
+          relationship: "नातेसंबंध सुसंगतता",
+          career: "करिअर मार्गदर्शन",
+          vastu: "वास्तु शास्त्र",
+          education: "शैक्षणिक मार्गदर्शन",
+          forecast: "वार्षिक भविष्यवाणी",
+        },
+        message: "तुमचा संदेश",
+        button: "संदेश पाठवा",
+        sending: "संदेश पाठवला जात आहे...",
+      },
+      consultation: {
+        title: "परामर्श माहिती",
+        intro:
+          "आम्ही संपूर्ण जगभरातील ग्राहकांसाठी प्रत्यक्ष आणि ऑनलाइन दोन्ही प्रकारचे सल्ले देतो.",
+        inPerson: {
+          title: "प्रत्यक्ष परामर्श",
+          duration: "कालावधी: 60-90 मिनिटे",
+          bringDetails: "कृपया तुमचे जन्म तपशील (तारीख, वेळ, ठिकाण) आणा",
+          recording: "रिकॉर्डिंग आवश्यकतेनुसार उपलब्ध",
+        },
+        online: {
+          title: "ऑनलाइन परामर्श",
+          platform: "Zoom किंवा Google Meet द्वारे सत्र घेतले जाते",
+          schedule: "तुमच्या टाइमझोननुसार शेड्यूल करा",
+          recording: "सत्रानंतर रेकॉर्डिंग दिले जाईल",
+        },
+        followUs: "आम्हाला फॉलो करा",
+      },
+
       gallery: {
         title: "आमचे कार्य गॅलरी",
         description:
@@ -288,13 +736,18 @@ const resources = {
         name: "Vikram Singh",
         role: "College Student",
         content:
-          "शैक्षणिक मार्गदर्शनामुळे मला योग्य अभ्यासक्रम निवडता आला. अनेक पर्यायांमध्ये गोंधळलेलो होतो पण ज्योतिषशास्त्रीय मार्गदर्शनामुळे स्पष्टता मिळाली.",      
-        },
+          "शैक्षणिक मार्गदर्शनामुळे मला योग्य अभ्यासक्रम निवडता आला. अनेक पर्यायांमध्ये गोंधळलेलो होतो पण ज्योतिषशास्त्रीय मार्गदर्शनामुळे स्पष्टता मिळाली.",
+      },
       testimonial4: {
         name: "Harshita Deshmukh",
         role: "Homemaker",
         content:
-          "नवीन घरासाठी केलेल्या वास्तु सल्ल्यामुळे आमच्या घरात सकारात्मकता आणि सौहार्द वाढले आहे."
+          "नवीन घरासाठी केलेल्या वास्तु सल्ल्यामुळे आमच्या घरात सकारात्मकता आणि सौहार्द वाढले आहे.",
+      },
+      contactSection: {
+        title: "संपर्क साधा",
+        subtitle:
+          "कोणतेही प्रश्न आहेत का किंवा सल्लामसलत बुक करायची आहे? आमच्याशी संपर्क करा!",
       },
 
       nav: {

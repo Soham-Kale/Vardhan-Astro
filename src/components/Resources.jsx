@@ -1,4 +1,3 @@
-// src/components/Resources.js
 import React from 'react';
 import { FaStar, FaCalendarAlt, FaBook, FaUserAstronaut, FaArrowRight } from 'react-icons/fa';
 import { useTranslation } from 'react-i18next';
@@ -56,22 +55,22 @@ const Resources = () => {
                   <span>{article.date}</span>
                 </div>
               </div>
-              <div className="px-8 pb-8">
+              {/* <div className="px-8 pb-8">
                 <button className="flex items-center text-indigo-600 dark:text-indigo-400 font-medium hover:text-indigo-800 dark:hover:text-indigo-300 transition-colors">
                   {t('resources.readMore')}
                   <FaArrowRight className="ml-2 text-sm" />
                 </button>
-              </div>
+              </div> */}
             </div>
           ))}
         </div>
 
-        <div className="text-center mt-12">
+        {/* <div className="text-center mt-12">
           <button className="bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-3 px-8 rounded-lg shadow-lg transition-colors flex items-center mx-auto">
             {t('resources.viewAll')}
             <FaArrowRight className="ml-2" />
           </button>
-        </div>
+        </div> */}
       </div>
     </section>
   );

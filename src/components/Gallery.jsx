@@ -2,9 +2,15 @@ import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { FaStar, FaChevronLeft, FaChevronRight, FaTimes } from 'react-icons/fa';
 
+
+
 const Gallery = () => {
-  const galleryItems = Array(9).fill(null); // Placeholder for 9 images
+  // const galleryItems = Array(9).fill(null); 
   
+  const galleryItems = [
+    {},
+  ]
+
   const [selectedImage, setSelectedImage] = useState(null);
   const { t } = useTranslation();
   

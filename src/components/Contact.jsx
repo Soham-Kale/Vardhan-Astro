@@ -1,5 +1,5 @@
-// src/components/Contact.js
 import React, { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import { FaStar, FaPaperPlane } from 'react-icons/fa';
 
 const Contact = () => {
@@ -13,6 +13,7 @@ const Contact = () => {
   
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitSuccess, setSubmitSuccess] = useState(false);
+  const { t } = useTranslation();
   
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -47,11 +48,11 @@ const Contact = () => {
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 dark:text-white mb-4">
-            Get In Touch
+            {t('contactSection.title')}
           </h2>
           <div className="w-24 h-1 bg-indigo-600 mx-auto rounded-full"></div>
           <p className="text-xl text-gray-600 dark:text-gray-300 mt-6 max-w-2xl mx-auto">
-            Have questions or ready to book a consultation? Reach out to us!
+            {t('contactSection.subtitle')}
           </p>
         </div>
 
@@ -59,24 +60,25 @@ const Contact = () => {
           <div className="lg:w-1/2">
             <div className="bg-white dark:bg-gray-900 rounded-xl shadow-lg p-8">
               <h3 className="text-2xl font-bold text-gray-800 dark:text-white mb-6">
-                Send us a message
+                  {t('contactForm.title')}
               </h3>
               
               {submitSuccess ? (
                 <div className="bg-green-100 dark:bg-green-900/30 border border-green-400 dark:border-green-700 rounded-lg p-6 text-center">
                   <FaPaperPlane className="text-green-500 dark:text-green-400 text-4xl mx-auto mb-4" />
                   <h4 className="text-xl font-bold text-green-800 dark:text-green-200 mb-2">
-                    Message Sent Successfully!
+                    {t('contactForm.successTitle')}
                   </h4>
                   <p className="text-green-700 dark:text-green-300">
-                    Thank you for contacting us. We'll get back to you soon.
+                    {t('contactForm.successMsg')}
                   </p>
                 </div>
               ) : (
                 <form onSubmit={handleSubmit}>
                   <div className="mb-6">
                     <label htmlFor="name" className="block text-gray-700 dark:text-gray-300 mb-2">
-                      Full Name
+                      {/* Full Name */}
+                      {t('contactForm.fields.name')}
                     </label>
                     <input
                       type="text"
@@ -92,7 +94,7 @@ const Contact = () => {
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
                     <div>
                       <label htmlFor="email" className="block text-gray-700 dark:text-gray-300 mb-2">
-                        Email Address
+                                              {t('contactForm.fields.email')}
                       </label>
                       <input
                         type="email"
@@ -107,7 +109,7 @@ const Contact = () => {
                     
                     <div>
                       <label htmlFor="phone" className="block text-gray-700 dark:text-gray-300 mb-2">
-                        Phone Number
+                                              {t('contactForm.fields.phone')}
                       </label>
                       <input
                         type="tel"
@@ -122,7 +124,7 @@ const Contact = () => {
                   
                   <div className="mb-6">
                     <label htmlFor="service" className="block text-gray-700 dark:text-gray-300 mb-2">
-                      Service Interested In
+                                            {t('contactForm.fields.service')}
                     </label>
                     <select
                       id="service"
@@ -132,19 +134,19 @@ const Contact = () => {
                       className="w-full px-4 py-3 rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 text-gray-800 dark:text-white focus:outline-none focus:ring-2 focus:ring-indigo-500"
                       required
                     >
-                      <option value="">Select a service</option>
-                      <option value="Birth Chart Analysis">Birth Chart Analysis</option>
-                      <option value="Relationship Compatibility">Relationship Compatibility</option>
-                      <option value="Career Guidance">Career Guidance</option>
-                      <option value="Vastu Shastra">Vastu Shastra</option>
-                      <option value="Education Guidance">Education Guidance</option>
-                      <option value="Yearly Forecast">Yearly Forecast</option>
+                      <option value="">         {t('contactForm.fields.select')}</option>
+                      <option value="Birth Chart Analysis"> {t('contactForm.services.birthChart')}</option>
+                      <option value="Relationship Compatibility">{t('contactForm.services.relationship')}</option>
+                      <option value="Vastu Shastra">{t('contactForm.services.career')}</option>
+                      <option value="Career Guidance">{t('contactForm.services.vastu')}</option>
+                      <option value="Education Guidance">{t('contactForm.services.education')}</option>
+                      <option value="Yearly Forecast">{t('contactForm.services.forecast')}</option>
                     </select>
                   </div>
                   
                   <div className="mb-6">
                     <label htmlFor="message" className="block text-gray-700 dark:text-gray-300 mb-2">
-                      Your Message
+                        {t('contactForm.message')}
                     </label>
                     <textarea
                       id="message"
@@ -170,11 +172,11 @@ const Contact = () => {
                           <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
                           <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
                         </svg>
-                        Sending...
+                          {t('contactForm.sending')}
                       </>
                     ) : (
                       <>
-                        <FaPaperPlane className="mr-2" /> Send Message
+                        <FaPaperPlane className="mr-2" />  {t('contactForm.button')}
                       </>
                     )}
                   </button>
@@ -187,52 +189,52 @@ const Contact = () => {
             <div className="bg-indigo-600 dark:bg-indigo-900 rounded-xl p-8 h-full text-white">
               <h3 className="text-2xl font-bold mb-6 flex items-center">
                 <FaStar className="mr-3 text-yellow-300" />
-                Consultation Information
+                {t('consultation2.title')}
               </h3>
               
               <div className="space-y-6 mb-8">
                 <p>
-                  We offer both in-person and online consultations to accommodate clients from all over the world.
+                  {t('consultation2.description')}
                 </p>
                 
                 <div className="bg-indigo-700 dark:bg-indigo-800 rounded-lg p-5">
-                  <h4 className="font-bold text-lg mb-3">In-Person Consultation</h4>
+                  <h4 className="font-bold text-lg mb-3">  {t('consultation2.inPerson.title')}</h4>
                   <ul className="space-y-2">
                     <li className="flex items-start">
                       <FaStar className="text-yellow-300 mr-2 mt-1 flex-shrink-0" />
-                      <span>Duration: 60-90 minutes</span>
+                      <span> {t('consultation2.inPerson.point1')}</span>
                     </li>
                     <li className="flex items-start">
                       <FaStar className="text-yellow-300 mr-2 mt-1 flex-shrink-0" />
-                      <span>Please bring your birth details (date, time, place)</span>
+                      <span>{t('consultation2.inPerson.point2')}</span>
                     </li>
                     <li className="flex items-start">
                       <FaStar className="text-yellow-300 mr-2 mt-1 flex-shrink-0" />
-                      <span>Recording available upon request</span>
+                      <span>{t('consultation2.inPerson.point3')}</span>
                     </li>
                   </ul>
                 </div>
                 
                 <div className="bg-indigo-700 dark:bg-indigo-800 rounded-lg p-5">
-                  <h4 className="font-bold text-lg mb-3">Online Consultation</h4>
+                  <h4 className="font-bold text-lg mb-3">{t('consultation2.online.title')}</h4>
                   <ul className="space-y-2">
                     <li className="flex items-start">
                       <FaStar className="text-yellow-300 mr-2 mt-1 flex-shrink-0" />
-                      <span>Conducted via Zoom or Google Meet</span>
+                      <span>{t('consultation2.online.point1')}</span>
                     </li>
                     <li className="flex items-start">
                       <FaStar className="text-yellow-300 mr-2 mt-1 flex-shrink-0" />
-                      <span>Schedule according to your timezone</span>
+                      <span>{t('consultation2.online.point2')}</span>
                     </li>
                     <li className="flex items-start">
                       <FaStar className="text-yellow-300 mr-2 mt-1 flex-shrink-0" />
-                      <span>Recording provided after the session</span>
+                      <span>{t('consultation2.online.point3')}</span>
                     </li>
                   </ul>
                 </div>
               </div>
               
-              <div className="bg-white/20 rounded-lg p-5">
+              {/* <div className="bg-white/20 rounded-lg p-5">
                 <h4 className="font-bold text-lg mb-3">Follow Us</h4>
                 <div className="flex space-x-4">
                   {['Facebook', 'Instagram', 'YouTube', 'Twitter'].map((platform) => (
@@ -244,7 +246,7 @@ const Contact = () => {
                     </div>
                   ))}
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
